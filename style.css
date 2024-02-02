@@ -1,0 +1,168 @@
+/* Start of Global Section*/
+*{
+    font-family: Poppins, sans-serif;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+/* End of Global Section*/
+
+/* Start of Header Section*/
+.header{
+    display: flex;
+    height: 70px;
+    background-color: whitesmoke;
+    padding: 0 380px;
+    align-items: center;
+}
+
+.logo-section{
+    height: 40px;
+}
+
+.logo-section img{
+    height: 100%;
+}
+
+.nav-bar{
+    flex:1;
+    margin-left: 85px;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-items{
+    margin: 0 15px;
+}
+
+.nav-url{
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color, 0.15;
+}
+
+.home{
+    color: rgb(22, 110, 243);
+}
+
+.misc-stuff{
+    display: flex;
+    align-items: center;
+}
+
+.search-cart-icons a{
+margin: 0 10px;
+color: grey;
+}
+
+.auth{
+    margin-left: 25px;
+}
+
+.sign-in{
+    border: none;
+    padding: 8px 16px;
+    font-size: large;
+    transition: color, 0.15;
+    cursor: pointer;
+    background-color: white;
+}
+
+.sign-in:hover, .nav-url:hover, .search-icon:hover, .cart-icon:hover{
+    color: rgb(22, 110, 243);
+}
+
+.sign-up{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    transition: color, 0.05;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+    background-color: rgb(22, 110, 243);
+}
+
+
+/* End of Header Section*/
+
+
+/* Start of Main Section*/
+.main{
+    background-image: url(assests/banner.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 92.7vh;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.hero{
+    width: 500px;
+    position: relative;
+    top: 90px;
+}
+.text-area{
+padding-left: 100px;
+padding-top: 100px;
+}
+
+.large-text{
+    font-weight: 600;
+    font-size: 55px;
+    width: 600px;
+}
+
+.small-text{
+    margin: 15px 0;
+    color: grey;
+    font-size: 20px;
+    width:600px;
+}
+
+.input-search{
+    display: flex;
+    position: relative;
+    height: 70px;
+}
+
+.search-bar{
+    padding-left: 50px;
+    width: 550px;
+    border: rgba(255, 255, 255, 05);
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 100px 5px rgba(22, 110, 243, 0.2);
+}
+
+.submit-search{
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    bottom: 7px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: rgb(22, 110, 243);
+    color: white;
+    font-size: large;
+}
+
+.input-search-icon{
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 10px;
+    height:30px;
+    color: grey;
+}
