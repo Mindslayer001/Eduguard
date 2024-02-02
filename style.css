@@ -142,6 +142,7 @@ padding-top: 100px;
     width: 550px;
     border: rgba(255, 255, 255, 05);
     border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    outline: none;
     box-shadow: 0 0 100px 5px rgba(22, 110, 243, 0.2);
 }
 
